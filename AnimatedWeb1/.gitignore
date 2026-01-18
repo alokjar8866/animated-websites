@@ -1,0 +1,5 @@
+# Ignore all video formats
+*.mp4
+*.mov
+*.webm
+*.mkv
