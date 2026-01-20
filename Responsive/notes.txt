@@ -1,0 +1,34 @@
+## Understanding The Units
+        -px
+        -%
+        -vw,vh
+        -vmax,vmin
+        -em,rem
+## Layout of Website
+    -absolute vs flex
+      -try to avoid using absolute it hard the responsiveness
+      -instead use flex (it allows the child wrap according to screen heigth width)
+
+    flexbox
+     -display-flex
+     -aligning items in x and y axis (using the justify and align items)
+     -flex direction
+     -flex wrap
+
+## Now comes the real Method to make website responsive
+    -------Media Queries----------
+    it is like condition based css properties applying on the webpage 
+    it is the superpower to make webpage working on any screen resolution
+
+    CSS Media Queries
+      -min heigth, min width
+      -man width, max heigth
+
+Key points to remember while making website responsive
+
+1.CSS flexbox
+2.CSS Units
+3.Responsive Typography
+4.Mobile-first approach
+5.Flexible Images and Media
+

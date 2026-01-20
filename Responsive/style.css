@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy',sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    /*background-color: crimson;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    border-bottom:2px solid #dadada;
+}
+
+.nav-part2{
+    display: flex;
+    /*background-color: yellow;*/
+    gap: 4vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav h2{
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.nav h4{
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+.nav i{
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.content{
+    height: calc(100% - 100px);
+    width: 100%;
+    /*background-color: gray;*/
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 55%;
+    /*background-color: red;*/
+    padding: 5vw 5vw;
+}
+
+.left h1{
+    font-size: 4.2vw;
+    line-height: 4.4vw;
+}
+
+.left span{
+    color:rgb(12, 158, 216);
+}
+
+.left p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+.right{
+    height: 100%;
+    width: 45%;
+    /*background-color: yellow;*/
+}
+
+button{
+    font-size: 1.5vw;
+    font-weight: 750;
+    padding: 0.8vw 2vw;
+    background-color: rgb(16, 147, 228);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.right img{
+    height: 80%;
+    width: 100%;
+}
+@media (max-width:600px){
+    .nav{
+        background-color: lightgreen;
+        color: #fff;
+        padding: 0 5vw;
+    }
+    .nav h2{
+        font-size: 6vw;
+    }
+
+    .nav h4{
+        font-size: 4vw;
+        display: none;
+    }
+    .nav i{
+        display: block;
+        font-size: 5vw;
+    }
+
+    .content{
+        height: calc(100% - 60px);
+        flex-direction: column;
+    }
+
+    .left{
+        width: 100%;
+        height: 55%;
+        padding: 4vw 6vw ;
+    }
+
+    .left p{
+        font-size: 4vw;
+        font-weight: 600;
+        color: aqua;
+    }
+
+    .left h1{
+        font-size: 8vw;
+        line-height: 11vw;
+    }
+
+    .right{
+        width: 100%;
+        height:45%
+    }
+}
