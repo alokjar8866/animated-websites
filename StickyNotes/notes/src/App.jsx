@@ -59,7 +59,8 @@ function App() {
   };
   return (
     <>
-      <div className='flex items-center justify-center h-screen overflow-hidden p-6 bg-gray-600'>
+      <div className='flex flex-col items-center justify-center h-screen overflow-hidden p-6 bg-gray-600'>
+        <h1 className='text-2xl font-bold text-center p-2  mb-2 bg-slate-400 w-full rounded-2xl border-2 border-black'>Welcome To DigiNotes</h1>
         <div className='animate__animated animate__fadeIn bg-gray-400 shadow-2xl border border-black-200 w-full h-full rounded-4xl flex p-8 gap-6 overflow-auto'>
           <div className='flex flex-col items-center gap-8'>
 
@@ -99,7 +100,7 @@ function App() {
                     className='p-4 rounded-xl h-32 overflow-auto border-2 border-slate-950 animate__animated animate__pulse'
                     style={{ background: item.color }}
                   >
-                    <p className='text-sm font-medium text-slate-800'>{item.content}</p>
+                    <p className='text-sm font-bold text-black-800'>{item.content}</p>
                     <label className='text-xs text-white flex  mt-1'>{item.date}</label>
                   </div>
                 ))
